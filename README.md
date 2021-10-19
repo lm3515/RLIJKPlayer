@@ -1,4 +1,11 @@
 ### IJKMediaPlayback
+该项目实现了在播放直播流时实现录制视频流保存到本地的功能
+
+![Image text](https://github.com/lm3515/RLIJKPlayer/blob/master/IMG_1165.PNG)
+![Image text](https://github.com/lm3515/RLIJKPlayer/blob/master/IMG_1166.PNG)
+
+
+
 ### IJKMediaPlayback是暴露给第三方使用的类，在此类中添加了：
 
 ```C
