@@ -1,6 +1,7 @@
-IJKMediaPlayback
+### IJKMediaPlayback
+### IJKMediaPlayback是暴露给第三方使用的类，在此类中添加了：
 
-IJKMediaPlayback是暴露给第三方使用的类，在此类中添加了：
+```C
 
 /**
  *  录制视频（只能录制RTSP流）格式mov
@@ -12,9 +13,18 @@ IJKMediaPlayback是暴露给第三方使用的类，在此类中添加了：
  */
 - (int)rtsp2mov:(NSString *)streamURL storageFilePath:(NSString *)filePath isStop:(BOOL)bStop;
 
-IJKMediaPlayer ios集成了3个视频播放框架，分别是IJKAVMoviePlayerController、IJKMPMoviePlayerController、IJKFFMoviePlayerController
-电视宝（直播）使用了IJKFFMoviePlayerController，所以上面两个API（截图、录制视频）在IJKFFMoviePlayerController有做具体实现
+```
 
+
+### IJKMediaPlayer ios集成了3个视频播放框架，分别是：
+- IJKAVMoviePlayerController
+- IJKMPMoviePlayerController
+- IJKFFMoviePlayerController
+
+
+### RLIJKPlayer（直播）使用了IJKFFMoviePlayerController，所以上面两个API（截图、录制视频）在IJKFFMoviePlayerController有做具体实现
+
+```C
 #pragma --mark  录制视频（只能录制RTSP流）格式mov
 - (int)rtsp2mov:(NSString *)streamURL storageFilePath:(NSString *)filePath isStop:(BOOL)bStop
 {
@@ -258,8 +268,9 @@ IJKMediaPlayer ios集成了3个视频播放框架，分别是IJKAVMoviePlayerCon
     
     return 0;
 }
+```
+
 
 
 Android工程已上传，参见LVAS工程。有问题可以加QQ或者微信，QQ:942737690，微信：lm3515
-
 工程直播流测试地址：rtmp://live.hkstv.hk.lxdns.com/live/hks
