@@ -279,5 +279,7 @@
 
 
 
-Android工程已上传，参见LVAS工程。有问题可以加QQ或者微信，QQ:942737690，微信：lm3515
+Android工程已上传，参见TvBao工程。
+TvBao地址：https://github.com/lm3515/TvBao
+有问题可以加QQ或者微信，QQ:942737690，微信：lm3515
 工程直播流测试地址：rtmp://live.hkstv.hk.lxdns.com/live/hks
